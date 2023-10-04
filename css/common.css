@@ -1,0 +1,22 @@
+body{
+    color: #495057;
+    font-family: Lora, serif;
+    font-size: 0.875rem;
+    background: #F8F9FA;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}
+[class*="__container"]{
+    max-width: 83.125rem ;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    margin: 0 auto;
+}
+main{
+    flex: 1 1 auto;
+}
